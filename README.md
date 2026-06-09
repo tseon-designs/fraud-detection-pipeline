@@ -5,7 +5,7 @@
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 A production-quality, end-to-end machine learning system for detecting fraudulent transactions across two distinct data streams:
 
@@ -16,7 +16,7 @@ A production-quality, end-to-end machine learning system for detecting fraudulen
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 fraud-detection/
@@ -80,7 +80,7 @@ data/raw/creditcard.csv
 
 ---
 
-## 🚀 Running the Project
+## Running the Project
 
 ### Option 1: Notebooks (Recommended — in order)
 
@@ -119,18 +119,18 @@ pytest tests/ -v --cov=src
 | Model | AUC-PR | F1-Score | ROC-AUC |
 |-------|--------|----------|---------|
 | Logistic Regression | — | — | — |
-| **XGBoost** ✅ (Best) | — | — | — |
+| **XGBoost**  (Best) | — | — | — |
 
 ### Credit Card Fraud Dataset
 
 | Model | AUC-PR | F1-Score | ROC-AUC |
 |-------|--------|----------|---------|
 | Logistic Regression | — | — | — |
-| **XGBoost** ✅ (Best) | — | — | — |
+| **XGBoost**  (Best) | — | — | — |
 
 ---
 
-## 🔑 Key Business Recommendations
+##  Key Business Recommendations
 
 Based on SHAP analysis:
 
@@ -142,7 +142,7 @@ Based on SHAP analysis:
 
 ---
 
-## 📐 Design Principles
+##  Design Principles
 
 - **No accuracy metric** — AUC-PR and F1 only on imbalanced data
 - **SMOTE on training set only** — Never applied to test/validation to prevent data leakage
@@ -152,7 +152,7 @@ Based on SHAP analysis:
 
 ---
 
-## 📚 References
+##  References
 
 - [SMOTE Paper (Chawla et al., 2002)](https://arxiv.org/abs/1106.1813)
 - [imbalanced-learn Documentation](https://imbalanced-learn.org/stable/)
@@ -163,7 +163,7 @@ Based on SHAP analysis:
 
 ---
 
-## 👤 Author
+##  Author
 
 **Tsion Fikru**  
 Data Science Challenge — 10 Academy Week 5&6  
